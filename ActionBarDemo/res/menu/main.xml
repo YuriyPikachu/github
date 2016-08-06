@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itheima="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_star"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        itheima:showAsAction="always"/>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_star"
+        android:orderInCategory="100"
+        android:title="搜索"
+        itheima:actionViewClass="android.support.v7.widget.SearchView"
+        itheima:showAsAction="collapseActionView"/>
+    <item
+        android:icon="@drawable/ic_action_star"
+        android:orderInCategory="100"
+        android:title="菜单3"
+        itheima:showAsAction="ifRoom"/>
+
+    <!-- 子菜单 -->
+
+    <item
+        android:icon="@drawable/ic_action_star"
+        android:orderInCategory="100"
+        android:title="子菜单"
+        itheima:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:icon="@drawable/ic_action_star"
+                android:orderInCategory="100"
+                android:title="子菜单1"
+                itheima:showAsAction="ifRoom"/>
+            <item
+                android:icon="@drawable/ic_action_star"
+                android:orderInCategory="100"
+                android:title="子菜单2"
+                itheima:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+    <!-- group菜单 -->
+    <group android:checkableBehavior="single" >
+        <item
+            android:icon="@drawable/ic_action_star"
+            android:orderInCategory="100"
+            android:title="group1"
+            itheima:showAsAction="ifRoom"/>
+        <item
+            android:icon="@drawable/ic_action_star"
+            android:orderInCategory="100"
+            android:title="group2"
+            itheima:showAsAction="ifRoom"/>
+    </group>
+
+</menu>

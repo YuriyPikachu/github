@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itheima="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        itheima:showAsAction="always"/>
+    <item
+        android:orderInCategory="100"
+        android:title="菜单3"
+        itheima:showAsAction="ifRoom"/>
+
+</menu>
