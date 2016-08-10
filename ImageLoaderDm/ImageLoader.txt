@@ -1,0 +1,3 @@
+1.第一步下载ImageLoader的jar包，放在android的libs包下，变奶瓶
+2.第二步在application中初始化ImageLoader这个对象的一些配置信息
+3.在清单文件中配置一下ImageLoader的一些信息
